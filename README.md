@@ -23,7 +23,8 @@
      *     the first block header                                  ^
      *
      *
-     */                                                 the end mark
+     *                                                 the end mark
+     */
      ```
      - We use 4 meta data block to help us allocate and release the data chunks (each takes up 8 bytes)
         1. **Block Header**: 
